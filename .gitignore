@@ -1,0 +1,20 @@
+# Ignore environment variables
+.env
+
+# Ignore Python virtual environments
+venv/
+__pycache__/
+*.pyc
+
+# Optional: VSCode or editor-specific files
+.vscode/
+.idea/
+
+# Optional: OS files
+.DS_Store
+Thumbs.db
+
+MODELS/bloomz-560m/
+MODELS/Chat_Models/chatmodel_google.py
+MODELS/Chat_Models/chatmodel_openai.py
+MODELS/Chat_Models/chatmodel_hf.py

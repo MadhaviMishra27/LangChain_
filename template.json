@@ -1,0 +1,17 @@
+{
+    "name": null,
+    "input_variables": [
+        "length",
+        "paper",
+        "style"
+    ],
+    "optional_variables": [],
+    "output_parser": null,
+    "partial_variables": {},
+    "metadata": null,
+    "tags": null,
+    "template": "\nYou are an AI assistant specializing in NLP research papers. Your job is to summarize the paper titled: \"{paper}\".\n\nUse a **{style}** style:\n- If beginner-friendly: explain using simple language and analogies, avoid jargon, and define terms.\n- If technical: focus on model architecture, training process, and evaluation metrics.\n- If mathematical: explain equations, theoretical motivations, and proofs if applicable.\n- If code-oriented: emphasize implementation details, pseudocode, libraries, and practical usage.\n\nMake the explanation **{length}**:\n- short (1\u20132 paragraphs): provide only the key contributions and impact.\n- medium (3\u20135 paragraphs): include background, method, and results.\n- long (detailed explanation): cover all sections including introduction, methods, results, discussion, and applications.\n\nEnsure clarity, structure, and completeness. Begin now.\n",
+    "template_format": "f-string",
+    "validate_template": true,
+    "_type": "prompt"
+}
