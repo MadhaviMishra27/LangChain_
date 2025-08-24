@@ -20,3 +20,5 @@ MODELS/Chat_Models/chatmodel_openai.py
 MODELS/Chat_Models/chatmodel_hf.py
 model.py
 typed_dict_struct.py
+
+exm.txt
